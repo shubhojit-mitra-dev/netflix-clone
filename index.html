@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[100%] h-[100vh] bg-[url('assets/bg.jpg')]">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <nav class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[20px] items-center">
+                    <div>
+                        <img src="assets/netflix-3.svg" alt="logo.svg" class="w-[180px] p-[20px]">
+                    </div>
+                    <div class="flex justify-end gap-[20px] p-[20px]">
+                        <div class="relative">
+							<div class="absolute top-[6px] px-[7px]">
+								<img src="assets/language.svg" alt="language">
+							</div>
+                            <select name="" id="" class="bg-[rgba(0,0,0,0.7)] text-white p-[5px_25px] border-[1px] border-white rounded-[5px]">
+                              	<option value="en">English</option>
+								<option value="hi">Hindi</option>
+							</select>
+                        </div>
+						<button class="bg-[red] p-[3px_15px] text-white rounded-[5px]">Sign In</button>
+                    </div>
+                </nav>
+            </header>
+			<main>
+				<div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+					<h1 class="text-white sm:text-[35px] text-[20px] font-bold">
+						Unlimited movies, TV shows and more
+					</h1>
+					<h2 class="text-white sm:text-[18px] text-[10px] sm:py-[15px] py-[10px]">
+						Watch anywhere. Cancel anytime.
+					</h2>
+					<h3 class="text-white sm:text-[15px] text-[8px] sm:py-[15px] py-[10px]">
+						Ready to watch? Enter your email to create or restart your membership.
+					</h3>
+					<div class="flex justify-center gap-[20px]">
+						<input minlength="5" maxlength="50" type="email" placeholder="Email address" class="bg-[rgba(0,0,0,0.7)] text-white p-[10px_20px] border-[1px] border-white rounded-[5px] sm:w-[300px] w-[50vw] h-[50px]">
+						<button class="bg-[red] p-[10px_20px] text-white rounded-[5px] font-bold">
+							Get Started
+						</button>
+					</div>
+				</div>
+			</main>
+        </div>
+    </div>
+</body>
+</html>
